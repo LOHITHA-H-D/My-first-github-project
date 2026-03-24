@@ -15,7 +15,7 @@ jobs:
         with:
           host: ${{ 13.49.0.32 }}
           username: ubuntu
-          key: ${{ Myfirstkey.pem }}
+          key: ${{ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHu55U/b8cuNbwmtIRNGL/JbVV0u17tD+IUvJupasfs1Lq5siHUrU9n7BX/eJ5sdxsqT6SiW/lfiq8lQeZgWaJNf//B5xtYUo1vxTc2E7LnmxNZztbmrQV2S+7cJk3rsE6puziWRBva8RANJhQEiM9+Av6T7AQjoXc2Ljb8OZ9Rf+DdnleixNHZ750+tenaCIIxNMB3vuODTIiC1G/aGhOSDQ4ee1EDVnA+BNgqwyLk1IHRWKKcEdc6Rmfb6ATQpJP9beI0T+i8A1ps/3lV6PHdC/oYgDQkWAlFZrrW8rVn9UJhRayFSsPlAEYeSHXgulPwFmpgAKc7ncO6KYG6Q/j Myfirstkey }}
 
           script: |
             cd /var/www/myapp
